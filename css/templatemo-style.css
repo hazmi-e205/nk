@@ -205,7 +205,45 @@ header .social-icon li a
 #home
 	{
 		background: white;
+		background-size: cover;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		min-height: 10px;
 	}
+#home h1
+	{
+		font-weight: 300;
+		font-size: 70px;
+		padding-bottom: 10px;
+	}
+#home h1 span
+	{
+		color: #28a7e9;
+		font-weight: bold;
+	}
+#home .btn
+	{
+		background: transparent;
+		border-radius: 2px;
+		color: #fff;
+		font-size: 16px;
+		font-weight: bold;
+		margin-top: 20px;
+		width: 180px;
+		height: 60px;
+		padding-top: 18px;
+		-webkit-transition: all 0.4s ease-in-out;
+		        transition: all 0.4s ease-in-out;
+	}
+#home .btn:hover
+	{
+		background: #28a7e9;
+		border-color: transparent;
+	}
+.element {
+	height: 0px;
+	font-size: 16px;
+}
 /* end home */
 
 /* start about */
